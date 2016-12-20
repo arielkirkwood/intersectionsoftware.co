@@ -1,0 +1,22 @@
+.color-cell {
+  float: left;
+
+  width: 10%;
+  padding-bottom: 10%;
+
+  &:nth-child(10n) {
+    clear: right;
+  }
+
+  &:nth-child(3n) {
+    background-color: red;
+  }
+
+  &:nth-child(3n+1) {
+    background-color: white;
+  }
+
+  &:nth-child(3n+2) {
+    background-color: blue;
+  }
+}
